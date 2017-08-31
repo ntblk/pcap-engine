@@ -1,0 +1,13 @@
+{
+  "name": "pcap-engine",
+  "version": "0.1.0",
+  "description": "PCAP ring-buffer pipeline and extraction facilities for the collection of streaming network packet capture data",
+  "author": "NetBlocks Team <team@netblocks.org>",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "byline": "^5.0.0",
+    "lodash": "^4.17.4",
+    "xml2js": "^0.4.17"
+  }
+}
