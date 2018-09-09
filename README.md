@@ -11,6 +11,8 @@ pcap-engine provides a ring-buffer pipeline and extraction facilities for the co
 network packet capture data. It is built around the [libpcap file format](https://wiki.wireshark.org/Development/LibpcapFileFormat)
 and exposes core functionality that can be used to build a digital forensic capability into metrics/measurement systems or to otherwise automate capture and classification of network traffic.
 
+In conjunction with the [http-measurement-agent](https://github.com/ntblk/http-measurement-agent) this module can be used to compose an automatic packet capture collection pipeline for http agent requests and responses, a technique that's used at the core of the NetBlocks measurement stack.
+
 This package is maintained as part of the the [NetBlocks.org](https://netblocks.org) network observation framework.
 
 ## Implementation notes
